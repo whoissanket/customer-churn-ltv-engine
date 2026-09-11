@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific files
+
+# Raw datasets
+data/raw/*.csv
+
+# Processed datasets
+data/processed/*.csv
+
+# Trained machine learning models
+models/*.pkl
+models/*.joblib
+
+# Environment variables
+.env
+
+# Generated reports
+reports/figures/
+reports/model_results/
+
+# Local PostgreSQL / database files
+*.db
